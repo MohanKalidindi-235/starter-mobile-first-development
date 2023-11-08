@@ -1,0 +1,44 @@
+main {
+  margin-top: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.content-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1200px; /* Adjust the max-width as needed */
+}
+
+/* Adjust other styles for responsive layout */
+main h1 {
+  margin: 0 10px;
+  text-align: center;
+  font-family: "Amatic SC", cursive;
+  font-size: 65px;
+  flex: 1 100%;
+}
+
+main h2 {
+  margin: 18px 0 12px 0;
+  border-bottom: 1px solid #5c4f41;
+  font-family: "Special Elite", cursive;
+  font-size: 24px;
+  flex: 1 100%;
+}
+
+main h3 {
+  margin: 18px 0 12px 0;
+  border-bottom: 1px solid #5c4f41;
+  font-family: "Special Elite", cursive;
+  font-size: 18px;
+  flex: 1 100%;
+}
+
+main p {
+  font-family: "Roboto", sans-serif;
+  margin-top: 0;
+  flex: 1 100%;
+}
